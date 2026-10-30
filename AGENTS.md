@@ -1,9 +1,10 @@
 # Repository guidance
 
-This repository organizes shared Codex research skills into four categories: literature-review, peer-review, ideation, and paper-writing.
+This repository stores shared Codex research skills for EfficientAI-USTC. Its four planned areas are research-survey, research-ideation, paper-writing, and paper-review.
 
-- Follow README.md and CONTRIBUTING.md for placement and naming.
-- The peer-review category means reviewing the lab's own manuscripts from a reviewer's perspective to identify weaknesses, anticipate reviewer concerns, and suggest revisions.
-- The current phase is architecture only. Add concrete skills, examples, dependencies or automation only when requested.
-- Future skills live at skills/<category>/<skill-name>/SKILL.md; each skill must be self-contained and uniquely named across the repository.
-- Keep user-facing documentation in Chinese and filesystem names in English.
+- Follow README.md, skills/README.md, and CONTRIBUTING.md for organization and naming.
+- Keep skills flat at skills/<skill-name>/SKILL.md; each skill owns its supporting resources.
+- The paper-review area means reviewing the lab's own manuscripts from a reviewer's perspective, anticipating concerns and suggesting revisions.
+- The current phase is architecture only. Keep the four planned skill directories as placeholders until concrete skill content is requested.
+- Add actual installation instructions or automation when the corresponding skills and needs exist.
+- Keep user-facing documentation in Chinese and filesystem names in English. Describe functions and usage directly, without adding unrelated policy or compliance language.
