@@ -39,6 +39,10 @@ flowchart LR
 
 围绕论文故事线组织章节与段落，辅助大纲设计、稿件撰写、学术表达和内容修改。
 
+| 技能 | 用途 | 状态 | 维护者 |
+| --- | --- | --- | --- |
+| [paper-rebuttal](skills/paper-rebuttal/SKILL.md) | 一次提供论文、审稿意见与实验结果，生成逐点 rebuttal 或给 AC 的说明；含 one-shot 输入模板与完整示例 | 初版可试用，待独立新论文验证 | Hongyu Zhang |
+
 ## 🔍 模拟审稿 · paper-review
 
 以审稿人视角评审本实验室自己的稿件，围绕创新性、方法、实验、论证和表达提出潜在质疑，帮助作者确定修改重点。
@@ -48,6 +52,8 @@ flowchart LR
 创建或更新技能时，可将 [research-skill-creator](skills/research-skill-creator/SKILL.md) 作为任务指引。
 
 技能目录格式和资源组织约定见 [skills/README.md](skills/README.md)。
+
+使用审稿回复技能时，可将 [paper-rebuttal/SKILL.md](skills/paper-rebuttal/SKILL.md) 作为任务指引，一次提供审稿意见、论文材料、已完成的新增结果及语言和篇幅限制。文件内附可直接复用的输入模板；默认交付可粘贴的完整回复。
 
 ## 🗂️ 仓库结构
 
@@ -66,6 +72,8 @@ research-skills/
     ├── research-survey/
     ├── research-ideation/
     ├── paper-writing/
+    ├── paper-rebuttal/
+    │   └── SKILL.md
     └── paper-review/
 ```
 

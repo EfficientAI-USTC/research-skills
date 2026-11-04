@@ -8,6 +8,12 @@
 | --- | --- |
 | [research-skill-creator](research-skill-creator/SKILL.md) | 创建或更新技能包，设计试用请求，根据反馈迭代并同步目录 |
 
+## 科研技能
+
+| 技能 | 所属方向 | 用途 | 状态 | 维护者 |
+| --- | --- | --- | --- | --- |
+| [paper-rebuttal](paper-rebuttal/SKILL.md) | 论文写作 | 一轮生成或修改 rebuttal 与给 AC 的说明，包含输入模板和完整示例 | 初版可试用，待独立新论文验证 | Hongyu Zhang |
+
 ## 预留目录
 
 | 目录 | 方向 |
