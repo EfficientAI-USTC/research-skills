@@ -8,12 +8,11 @@
 
 | 方向 | 目录 | 用途 | 状态 |
 | --- | --- | --- | --- |
-| 📚 文献调研 | [`research-survey`](skills/research-survey/) | 检索与阅读文献，梳理方法、研究脉络和开放问题 | 规划中 |
-| 💡 研究构思 | [`research-ideation`](skills/research-ideation/) | 构思研究问题、方法方案和实验思路 | 规划中 |
-| ✍️ 论文写作 | [`paper-writing`](skills/paper-writing/) | 组织论文故事线、章节结构与学术表达 | 规划中 |
-| 🔍 模拟审稿 | [`paper-review`](skills/paper-review/) | 以审稿人视角评审本实验室稿件，提出潜在质疑和修改建议 | 规划中 |
+| 📚 文献调研 | [`research-survey`](skills/research-survey/) | 检索与阅读文献，梳理方法、研究脉络和开放问题 |
+| 💡 研究构思 | [`research-ideation`](skills/research-ideation/) | 构思研究问题、方法方案和实验思路 |
+| ✍️ 论文写作 | [`paper-writing`](skills/paper-writing/) | 组织论文故事线、章节结构与学术表达 |
+| 🔍 模拟审稿 | [`paper-review`](skills/paper-review/) | 以审稿人视角评审本实验室稿件，提出潜在质疑和修改建议 |
 
-目前仅建立仓库架构，以上目录均为预留位置，尚未填充具体技能。
 
 ## 🔄 科研工作流
 
@@ -45,8 +44,6 @@ flowchart LR
 
 ## 📦 使用方式
 
-当前版本为目录骨架。首批技能加入后，本节将补充面向 Codex 的安装与调用方式。
-
 技能目录格式和资源组织约定见 [skills/README.md](skills/README.md)。
 
 ## 🗂️ 仓库结构
@@ -67,13 +64,6 @@ research-skills/
     ├── paper-writing/
     └── paper-review/
 ```
-
-## 🎯 后续计划
-
-- [ ] 整理并加入文献调研技能
-- [ ] 整理并加入研究构思技能
-- [ ] 整理并加入论文写作技能
-- [ ] 整理并加入投稿前模拟审稿技能
 
 ## 🤝 参与贡献
 
