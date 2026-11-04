@@ -6,13 +6,14 @@
 
 ## ✨ 技能方向
 
-| 方向 | 目录 | 用途 | 状态 |
-| --- | --- | --- | --- |
+| 方向 | 目录 | 用途 |
+| --- | --- | --- |
 | 📚 文献调研 | [`research-survey`](skills/research-survey/) | 检索与阅读文献，梳理方法、研究脉络和开放问题 |
 | 💡 研究构思 | [`research-ideation`](skills/research-ideation/) | 构思研究问题、方法方案和实验思路 |
 | ✍️ 论文写作 | [`paper-writing`](skills/paper-writing/) | 组织论文故事线、章节结构与学术表达 |
 | 🔍 模拟审稿 | [`paper-review`](skills/paper-review/) | 以审稿人视角评审本实验室稿件，提出潜在质疑和修改建议 |
 
+技能维护工具：[research-skill-creator](skills/research-skill-creator/SKILL.md)，用于将科研工作流整理为技能包，并根据使用反馈持续改进。
 
 ## 🔄 科研工作流
 
@@ -44,6 +45,8 @@ flowchart LR
 
 ## 📦 使用方式
 
+创建或更新技能时，可将 [research-skill-creator](skills/research-skill-creator/SKILL.md) 作为任务指引。
+
 技能目录格式和资源组织约定见 [skills/README.md](skills/README.md)。
 
 ## 🗂️ 仓库结构
@@ -59,6 +62,7 @@ research-skills/
 │   └── pull_request_template.md
 └── skills/
     ├── README.md
+    ├── research-skill-creator/
     ├── research-survey/
     ├── research-ideation/
     ├── paper-writing/
