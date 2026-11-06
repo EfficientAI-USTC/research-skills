@@ -31,6 +31,10 @@ flowchart LR
 
 围绕研究主题组织文献检索、论文阅读与方法比较，梳理研究现状、技术脉络和待解决的问题。
 
+| 技能 | 用途 | 状态 | 维护者 |
+| --- | --- | --- | --- |
+| [paper-reading](skills/paper-reading/SKILL.md) | 从论文 PDF 或 arXiv 链接生成中文 Markdown、HTML、分节笔记和论文卡，并归档原文 | 初版可试用 | Hongyu Zhang |
+
 ## 💡 研究构思 · research-ideation
 
 从已有研究和实际问题出发，形成研究问题与方法设想，逐步明确贡献、实验思路和研究方案。
@@ -53,6 +57,8 @@ flowchart LR
 
 技能目录格式和资源组织约定见 [skills/README.md](skills/README.md)。
 
+阅读或翻译论文时，将 [paper-reading/SKILL.md](skills/paper-reading/SKILL.md) 作为任务指引，并提供 PDF 或 arXiv 链接。默认归档原文和主文译文，HTML 内嵌图片，公式通过 MathJax 排版。
+
 使用审稿回复技能时，可将 [paper-rebuttal/SKILL.md](skills/paper-rebuttal/SKILL.md) 作为任务指引，一次提供审稿意见、论文材料、已完成的新增结果及语言和篇幅限制。文件内附可直接复用的输入模板；默认交付可粘贴的完整回复。
 
 ## 🗂️ 仓库结构
@@ -70,6 +76,8 @@ research-skills/
     ├── README.md
     ├── research-skill-creator/
     ├── research-survey/
+    ├── paper-reading/
+    │   └── SKILL.md
     ├── research-ideation/
     ├── paper-writing/
     ├── paper-rebuttal/
