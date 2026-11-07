@@ -14,6 +14,9 @@
 | --- | --- | --- | --- | --- |
 | [paper-reading](paper-reading/SKILL.md) | 文献调研 | 阅读、翻译并归档论文，生成中文 Markdown、HTML、分节笔记和论文卡 | 初版可试用 | Hongyu Zhang |
 | [paper-rebuttal](paper-rebuttal/SKILL.md) | 论文写作 | 一轮生成或修改 rebuttal 与给 AC 的说明，包含输入模板和完整示例 | 初版可试用，待独立新论文验证 | Hongyu Zhang |
+| [research-problem-discovery](research-problem-discovery/SKILL.md) | 研究构思 | 从具体困难和文献演进中发现、界定研究问题，形成问题契约 | 初版可试用，待实际任务验证 | Hongyu Zhang |
+| [research-mechanism-diagnosis](research-mechanism-diagnosis/SKILL.md) | 研究构思 | 建立候选机制、区分性预测与诊断路径，定位可干预位置 | 初版可试用，待实际任务验证 | Hongyu Zhang |
+| [research-method-ideation](research-method-ideation/SKILL.md) | 研究构思 | 从问题与候选机制构思方法，说明关键操作、近邻差异与最小验证 | 初版可试用，待实际任务验证 | Hongyu Zhang |
 
 ## 预留目录
 
