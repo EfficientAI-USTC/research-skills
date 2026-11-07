@@ -39,6 +39,14 @@ flowchart LR
 
 从已有研究和实际问题出发，形成研究问题与方法设想，逐步明确贡献、实验思路和研究方案。
 
+| 技能 | 用途 | 状态 | 维护者 |
+| --- | --- | --- | --- |
+| [research-problem-discovery](skills/research-problem-discovery/SKILL.md) | 从具体困难和文献演进中发现、界定研究问题，形成有证据边界的问题契约 | 初版可试用，待实际任务验证 | Hongyu Zhang |
+| [research-mechanism-diagnosis](skills/research-mechanism-diagnosis/SKILL.md) | 围绕明确问题建立候选机制、区分性预测与诊断路径，定位可干预位置 | 初版可试用，待实际任务验证 | Hongyu Zhang |
+| [research-method-ideation](skills/research-method-ideation/SKILL.md) | 从问题与候选机制构思具体方法，说明关键操作、近邻差异与最小验证 | 初版可试用，待实际任务验证 | Hongyu Zhang |
+
+三个技能可分别使用，也可按“问题发现 → 机制诊断 → 方法构思”衔接。每个技能自带完整示例，并区分研究背景、候选解释和待验证方案。
+
 ## ✍️ 论文写作 · paper-writing
 
 围绕论文故事线组织章节与段落，辅助大纲设计、稿件撰写、学术表达和内容修改。
@@ -61,6 +69,8 @@ flowchart LR
 
 使用审稿回复技能时，可将 [paper-rebuttal/SKILL.md](skills/paper-rebuttal/SKILL.md) 作为任务指引，一次提供审稿意见、论文材料、已完成的新增结果及语言和篇幅限制。文件内附可直接复用的输入模板；默认交付可粘贴的完整回复。
 
+研究构思时，按任务选用 [research-problem-discovery](skills/research-problem-discovery/SKILL.md)、[research-mechanism-diagnosis](skills/research-mechanism-diagnosis/SKILL.md) 或 [research-method-ideation](skills/research-method-ideation/SKILL.md)，并提供已有问题、具体案例、相关文献和约束。技能默认交付分析与方案；实验执行遵循用户授权。
+
 ## 🗂️ 仓库结构
 
 ```text
@@ -78,6 +88,9 @@ research-skills/
     ├── research-survey/
     ├── paper-reading/
     │   └── SKILL.md
+    ├── research-problem-discovery/
+    ├── research-mechanism-diagnosis/
+    ├── research-method-ideation/
     ├── research-ideation/
     ├── paper-writing/
     ├── paper-rebuttal/
