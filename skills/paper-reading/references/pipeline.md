@@ -2,6 +2,12 @@
 
 `PY` 表示具备 `scripts/requirements.txt` 依赖的 Python；`PIPE` 是本 skill 下 `scripts/paper_pipeline.py` 的绝对路径。PowerShell 中用 `& $PY $PIPE ...`。脚本不会调用模型或付费 API，翻译块由当前模型撰写。
 
+## 从 arXiv 获取原件（提取前必做）
+
+1. 在摘要页核对版本。用户链接已带版本时沿用；否则解析当前版本。先检查论文目录中的同版本文件；已归档且能正常打开的原件直接复用，不重复下载。
+2. `source.pdf` 缺失时主动请求 `https://arxiv.org/pdf/<ID>v<N>` 并保存到论文目录；同版本提供 HTML 且本地缺失时，从 `https://arxiv.org/html/<ID>v<N>` 保存 `paper.html`。检查响应成功、PDF 可解析、HTML 是目标论文而非错误页；不要用空文件或抓取的摘要代替原件。
+3. 首次失败时换用环境中另一种可用下载方式或官方同版本入口再试；按环境要求申请必要的网络访问。任一原件可读就继续对应提取轨，只有两种都不可读才报告取件失败和已尝试的方法。不把手动上传作为处理 arXiv 链接的前置条件。
+
 ## 提取
 
 ```powershell
@@ -11,7 +17,7 @@
 & $PY $PIPE extract-pdf --pdf '原始论文.pdf' --out '论文目录'
 ```
 
-arXiv 用相同 ID 和版本的 PDF 地址保存为 `source.pdf`（使用当前可用下载工具）；HTML 和 PDF 都获取失败时说明缺项。HTML 失败可直接转 PDF；不安装 MinerU。PDF 命令会保存原件、全文提取和 140dpi 页图；逐页核对后构造可靠的 `main.en.md`。页图可完整保留图表，不能以页图存在推断翻译完整。
+HTML 不可用时直接转 PDF；不安装 MinerU。PDF 命令会保存原件、全文提取和 140dpi 页图；逐页核对后构造可靠的 `main.en.md`。页图可完整保留图表，不能以页图存在推断翻译完整。
 
 ```powershell
 & $PY $PIPE crop --pdf '论文目录/source.pdf' --page 3 --rect 20 80 580 420 --out '论文目录/images/table_1.png'
